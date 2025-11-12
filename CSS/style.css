@@ -89,13 +89,18 @@ h2 {
 
 .sobrenos {
   text-align: center;
+  font-size: 50px;
   text-shadow: 3px 3px 3px rgb(27, 102, 27);
 }
 .teste2 {
   text-align: center;
   text-shadow: 3px 3px 3px rgb(75, 112, 160)
 }
-
+.shadow {
+  
+  display: flex;
+  flex-direction: column;
+}
 /* servicos*/
 .img_sevicos {
   display: flex;
@@ -110,11 +115,11 @@ h2 {
   height: 500px;
   border: 5px solid black;
   display: inline-block;
+  
 }
 
 .utima {
-  align-items: flex-end;
-  justify-content: space-around;
+  text-align: center;
 }
 
 /*    
